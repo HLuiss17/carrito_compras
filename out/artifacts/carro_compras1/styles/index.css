@@ -1,0 +1,87 @@
+
+.container-fluid{
+    background-color: #2b2a2a;
+}
+.navbar a{
+    color: white;
+}
+
+/* Centrar los elementos dentro de la lista desplegable */
+
+
+/* Centrar la imagen dentro del menú */
+.dropdown-menu img {
+    max-width: 50px; /* Limitar el tamaño de la imagen */
+    height: auto; /* Mantener la proporción de la imagen */
+    margin-bottom: 10px; /* Espaciado entre la imagen y los elementos siguientes */
+}
+
+/* Asegurar que los elementos de la lista (li) estén centrados */
+.dropdown-menu li {
+    width: 100%; /* Asegura que cada elemento ocupe todo el ancho */
+}
+
+
+
+
+.dropdown-menu li:hover a {
+    color: darkgreen; /* Cambia el color del texto del enlace */
+}
+.dropdown-menu a{
+    color: black;
+}
+#iniciarSesion {
+    margin-left: auto; /* Empuja el elemento hacia el extremo derecho */
+    margin-right: 0; /* Elimina cualquier espacio adicional a la derecha */
+    display: flex; /* Asegura que los elementos mantengan un diseño en línea */
+    align-items: center; /* Centra verticalmente el contenido */
+    margin-right: 100px;
+    margin: 20px 20px;
+}
+/*fotter styles*/
+.fotter {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.fotter a{
+    text-decoration: none;
+}
+/*Modal Styes*/
+.modal-body{
+    background-color: white;
+}
+.imgInicioSesion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.imgInicioSesion img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Asegura que no haya espacio debajo de la imagen */
+}
+/*styles de login.jsp*/
+#LoginJsp{
+    background-color: white;
+}
+#btnIngresar{
+    text-align: center;
+}
+#btnIngresar input{
+    display: inline-block;
+    margin: 0 auto;
+    width: 50%;
+    border: none;
+    border-radius: 30px;
+}
+#LoginRegistro{
+    background-color: white;
+}
+#LoginModalDatos{
+    text-align: center;
+}
+
+
